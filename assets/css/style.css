@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#regForm {
+  border: 15px solid white;
+  width: 600px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.card {
+  border: 3px solid whitesmoke;
+  margin: 0px 5px 0px 5px;
+  background-color: white;
+}
+
+label {
+  font-weight: 600;
+  margin-top: 54px;
+  line-height: 30%;
+  font-size: 13px;
+  margin: 5px;
+}
+
+#fName,
+#lName,
+#mName {
+  width: 29.2%;
+  margin: 5px;
+}
+
+#dob,
+#stdId,
+#country,
+#zip,
+#city,
+#state,
+#email,
+#confirmEmail {
+  width: 46%;
+  margin: 5px;
+}
+
+#mob {
+  width: 46%;
+}
+
+#strtAddress {
+  width: 96.1%;
+  margin: 5px;
+}
+
+#comment {
+  resize: none;
+  width: 97%;
+  padding-left: 5px;
+  margin: 5px;
+}
+
+select {
+  width: 22.5%;
+  font-size: 11px;
+  margin-bottom: 5px;
+  border-radius: 1px;
+  margin: 5px;
+  padding: 3px;
+}
+
+#btn {
+  width: 98%;
+  background: #038dfc;
+  color: white;
+  font-weight: 600;
+  padding: 3px;
+  border-radius: 2px;
+  margin: 5px;
+}
+#btn:hover {
+  background-color: #038dfc;
+}
+
+input {
+  padding-left: 5px;
+  font-size: 12px;
+  text-decoration: solid;
+  margin-bottom: 5px;
+  border-radius: 2px;
+  padding: 3px;
+}
+input:focus {
+  background-color: rgb(208, 237, 248);
+}
+
+img {
+  float: left;
+  border-radius: 50%;
+  margin-right: 30px;
+  margin-left: 10px;
+  border: 3px solid gray;
+}
+span {
+  color: red;
+  font-weight: 900;
+}
+p {
+  font-size: 12px;
+}
+.add {
+  margin: 5px;
+  padding: 3px;
+  background-color: rgb(229, 228, 228);
+  font-size: 10px;
+  color: rgb(159, 156, 156);
+}
+
+@media screen and (max-width: 800px) {
+  .card {
+    width: 100%;
+  }
+}
